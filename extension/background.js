@@ -13,10 +13,10 @@ chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
       chrome.declarativeContent.onPageChanged.addRules([
       {
         conditions: [new chrome.declarativeContent.PageStateMatcher({
-            pageUrl: {pathPrefix : 'https://www.google.com/maps/dir/'},
+            pageUrl: {hostEquals : 'www.google.com', schemes: ['https']},
           })
         ], 
-        actions: [alert("hi!")]
+        actions: [new chrome.declarativeContent.ShowPageAction()]
       }
      ])
    })
