@@ -2,12 +2,7 @@
     text-align: center;
 }
 
-#friend_form {
-  position: absolute;
-  width: 350px;
-  height: 420px;
-  left: 600px;
-  top: 170px;
-  text-align: center;
-  background-color: black;
+#friend_form_title {
+    text-align: center;
 }
+
