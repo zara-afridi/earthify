@@ -9,7 +9,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="stats.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
 </head>
+
+
 
 <body> <!-- change background image here -->
 
@@ -19,24 +28,36 @@
 <div id="green_title"> Your Earthify Points: </div>
 
 <!-- main cloud section -->
-<div id="left_cloud">
-    <img src="images/left_cloud_transparent.png" alt= "left cloud">
+
+<!-- <div class="container">
+    
+</div> -->
+<div id="points" class="textpoints"> 10,435 </div>
+<div class="test"><img src="images/white_blue_cloud.png" alt= "cloud" class="cloud"></div> 
+
+
+<!-- Stats section (with bar graph) -->
+<div class="statistics">
+    <h2> Your Stats </h2>
+    <canvas id="horizontalBar"></canvas>
 </div>
 
-<div id="right_cloud">
-    <img src="images/right_cloud_transparent.png" alt= "right cloud">
-</div>
+<!-- Tree section-->
 
 <!-- friends section-->
 <div class="container">
     <h2 style="text-align: center">See how you compare to your friends!</h2>
+    <br></br>
     <ul class="list-group">
       <li class="list-group-item">First item</li>
       <li class="list-group-item">Second item</li>
       <li class="list-group-item">Third item</li>
       <li class="list-group-item">Fourth item</li>
     </ul>
-  </div>
+</div>
+
+
+
 
 </body>
 </html>

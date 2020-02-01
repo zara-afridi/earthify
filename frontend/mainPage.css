@@ -1,14 +1,11 @@
-@font-face {
-    font-family: 'Raleway', sans-serif;
-    src: "https://fonts.googleapis.com/css?family=Raleway&display=swap";
-}
-
 /* Main title */
 #webpage_title {
     text-align: center;
     font-size: 60px;
     position: relative;
     top: 55px;
+    font-weight: bold;
+
 }
 
 /* Points title */
@@ -16,26 +13,53 @@
     text-align: center;
     font-size: 40px;
     position: relative;
-    top: 80px;
+    top: 82px;
 }
 
-/* Clouds */
-#left_cloud {
+/* Cloud */
+
+/*.cloud_container {
     position: relative;
-    top: 50px;
-    left: 270px;
+}*/
+
+#points {
+    text-align: center;
+    font-size: 150px;
+    position: relative;
+    top: 110px;
 }
 
-#right_cloud {
-    position: relative;
-    top: -100px;
-    left: 400px;
+.cloud {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 550px;
+    /* z-index: -1; */
+}
+
+.test{
+    z-index: -5;
+    position: absolute;
+    left: 360px;
+    top: 35%;
+    z-index: -1;
+}
+
+.textpoints{
+    /* padding-top: 230px; */
+    z-index: 900;
 }
 
 /* Friends section */
 .container {
     position: relative;
     top: 200px;
+}
+
+.statistics {
+    position: relative;
+    top: 400px;
 }
 
 
