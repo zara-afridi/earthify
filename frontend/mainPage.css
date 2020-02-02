@@ -64,10 +64,17 @@
     top: 900px;
 }
 
+/* Water section */
+
+.water {
+    position: relative;
+    top: 1200px;
+}
+
 /* Friends section */
 .container {
     position: relative;
-    top: 1200px;
+    top: 2000px;
 }
 
 
