@@ -10,6 +10,7 @@
     "tabs"
   ], 
 
+
   "pageAction": {
     "default_popup": "popup.html"
   },
@@ -23,7 +24,7 @@
   },
 
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["background.js", "jquery-3.4.1.js"],
     "persistent": false
   }
 

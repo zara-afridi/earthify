@@ -1,8 +1,25 @@
-#webpage_title {
-    text-align: center;
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: "https://fonts.googleapis.com/css?family=Raleway&display=swap";
 }
 
-#friend_form_title {
+#webpage_title {
     text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: 70px;
 }
+
+#green_title {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 110px;
+}
+
+.container {
+    position: relative;
+    top: 200px;
+}
+
 
