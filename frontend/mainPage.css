@@ -61,18 +61,13 @@
 
 .trees {
     position: relative;
-    top: 600px;
-}
-
-.tree-image {
-    width: 550px;
-    height: 700px;
+    top: 900px;
 }
 
 /* Friends section */
 .container {
     position: relative;
-    top: 600px;
+    top: 1200px;
 }
 
 
