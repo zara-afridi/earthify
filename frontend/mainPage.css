@@ -71,11 +71,22 @@
     top: 1200px;
 }
 
+.lights {
+    position: relative;
+    top: 2000px;
+}
+
+.footprint {
+    position: relative;
+    top: 2500px; 
+}
+
 /* Friends section */
 .container {
     position: relative;
     top: 2000px;
 }
+
 
 
 

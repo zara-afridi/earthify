@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-    <title> Main page that is seen when clicking on new tab </title>
+    <title> Earthify </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
     <link rel="stylesheet" href="mainPage.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -11,6 +11,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="stats.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
     <style>
         body {
             font-family: 'Raleway', sans-serif;
@@ -41,8 +55,30 @@
     <h2 style="font-size: 50px; font-weight: bold; text-align: center;"> Your Stats Over The Last Few Months </h2>
     <br></br>
     <img src="images/world.jpg" alt= "world" style="position: relative; width: 600px; height: 700px; left: -50px;">
-    <canvas id="horizontalBar"></canvas>
 </div>
+    <!-- Grid container -->
+    <div class="container" style="position: absolute; left: 300px; top: 1200px;">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+        <!--Grid column-->
+            <div class="col-md-6">
+                <canvas id="myChart"></canvas>
+            </div>
+        <!--Grid column-->
+        </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Your custom scripts (optional) -->
+<script type="text/javascript" src="stats.js"></script>
 
 <!-- Tree section-->
 <div class="trees">
@@ -60,21 +96,39 @@
     <img src="images/rain.png" alt= "rain" style="position: relative; width: 800px; height: 600px; left: 70px; top: -600px;">
 </div>
 
+<!-- Lights Section -->
+<div class="lights">
+    <div id="lights-text" style= "position: absolute; top: 3520px; right: 270px;">
+        <h2 style="font-size: 50px; font-weight: bold; width: 400px; height: 100px;"> and not to forget, 3292 jules in electricity </h2>
+    </div>
+    <img src="images/lightbulb.jpg" alt= "rain" style="position: relative; width: 400px; height: 500px; left: 70px; top: 800px;">
+</div>
+
+<!-- Carbon Footprint -->
+<div class="footprint">
+    <div id="footprint-text" style= "position: absolute; top: 4200px; right: 270px;">
+        <h2 style="font-size: 50px; font-weight: bold; width: 400px; height: 100px;">  with a total carbot footprint of 2349 </h2>
+    </div>
+    <img src="images/footprint.jpg" alt= "rain" style="position: relative; width: 400px; height: 450px; left: 70px; top: 1000px;">
+</div>
+
+<h1 style= "position: absolute; top: 4800px; right: 100px; font-size: 110px; font-weight: bold; width: 1000px; height: 290px; border: 3px solid #000000; padding-left: 20px;"> Ultimately saving you a total of $234</h1>
 
 
 <!-- friends section-->
-<div class="container">
-    <h2 style="text-align: center; font-weight: bold;" >See how you compare to your friends!</h2>
+<div class="container" style="top: 1800px;">
+    <h2 style="text-align: center; font-weight: bold; font-size: 60px;" >See how you compare to your friends!</h2>
     <br></br>
     <ul class="list-group">
-      <li class="list-group-item">First item</li>
-      <li class="list-group-item">Second item</li>
-      <li class="list-group-item">Third item</li>
-      <li class="list-group-item">Fourth item</li>
+      <li class="list-group-item" style="font-size: 30px;">Marija Ivanovska: 10, 342 points</li>
+      <li class="list-group-item" style="font-size: 30px;">Julia Cwiek: 8343 points</li>
+      <li class="list-group-item" style="font-size: 30px;">Jennifer Smith: 342 points</li>
+      <li class="list-group-item" style="font-size: 30px;">Sam Maxwell: 73, 341 points</li>
     </ul>
 </div>
 
-
+<!-- Share button -->
+<button type="button" class="btn btn-outline-info" style="font-size: 30px; top: 1850px; left: 40%;">Share Stats</button>
 
 
 </body>
