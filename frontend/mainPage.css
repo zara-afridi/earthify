@@ -24,9 +24,9 @@
 
 #points {
     text-align: center;
-    font-size: 140px;
+    font-size: 230px;
     position: relative;
-    top: 130px;
+    top: 60px;
 }
 
 .cloud {
@@ -51,15 +51,30 @@
     z-index: 900;
 }
 
-/* Friends section */
-.container {
-    position: relative;
-    top: 200px;
-}
-
+/* Stats section */
 .statistics {
     position: relative;
     top: 400px;
 }
+
+/* Tree Section */
+
+.trees {
+    position: relative;
+    top: 600px;
+}
+
+.tree-image {
+    width: 550px;
+    height: 700px;
+}
+
+/* Friends section */
+.container {
+    position: relative;
+    top: 600px;
+}
+
+
 
 
