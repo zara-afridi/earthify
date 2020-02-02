@@ -10,7 +10,6 @@
     "tabs"
   ], 
 
-
   "pageAction": {
     "default_popup": "popup.html"
   },
